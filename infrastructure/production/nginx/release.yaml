@@ -3,8 +3,6 @@ kind: HelmRelease
 metadata:
   name: nginx
 spec:
-  targetNamespace: non-existent-namespace
-spec:
   releaseName: nginx-ingress-controller
   chart:
     spec:
